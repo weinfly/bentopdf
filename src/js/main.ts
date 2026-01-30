@@ -33,13 +33,6 @@ const init = async () => {
         heroSection.style.display = 'none';
       }
 
-      const githubLink = document.querySelector(
-        'a[href*="github.com/alam00000/bentopdf"]'
-      );
-      if (githubLink) {
-        (githubLink as HTMLElement).style.display = 'none';
-      }
-
       const featuresSection = document.getElementById('features-section');
       if (featuresSection) {
         featuresSection.style.display = 'none';
